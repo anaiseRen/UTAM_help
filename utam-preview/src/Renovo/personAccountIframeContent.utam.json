@@ -1,0 +1,18 @@
+{
+    "root": true,
+    "selector": {
+        "css": "body"
+    },
+    "elements": [
+        {
+            "name": "link",
+            "selector":{
+                "css": "a[name='skiplink']"
+
+            },
+            "public":true
+
+        }
+
+    ]
+    }

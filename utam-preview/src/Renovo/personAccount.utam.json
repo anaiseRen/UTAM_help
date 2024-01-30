@@ -1,0 +1,22 @@
+{
+    "root": true,
+    "selector": {
+        "css": "body"
+    },
+    "elements": [
+        {
+            "name": "iFrames",
+            "type": "frame",
+            "public": true,
+            "selector": {
+                "css": "iframe:nth-child(%d)",
+                "args": [
+                    {
+                        "name":"index",
+                        "type":"number"
+                    }
+                ]
+            }
+        }
+    ]
+    }

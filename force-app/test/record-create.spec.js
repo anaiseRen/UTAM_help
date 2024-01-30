@@ -15,7 +15,7 @@ import { TestEnvironment } from './utilities/test-environment';
 import RecordActionWrapper from 'salesforce-pageobjects/global/pageObjects/recordActionWrapper';
 
 // TODO: replace with prefix of the environment from .env file
-const TEST_ENVIRONMENT_PREFIX = 'na44';
+const TEST_ENVIRONMENT_PREFIX = 'sandbox';
 
 describe('Record creation tests', () => {
     const testEnvironment = new TestEnvironment(TEST_ENVIRONMENT_PREFIX);
