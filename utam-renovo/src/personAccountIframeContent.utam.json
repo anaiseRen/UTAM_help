@@ -1,0 +1,25 @@
+{
+    "root": true,
+    "selector": {
+        "css": "div#createAccountCustom"
+    },
+    "elements": [
+        {
+            "name": "radioGroup",
+            "load": true,
+            "type": "salesforce-pageobjects/lightning/pageObjects/radioGroup",
+            "public": true,
+            "selector": {
+                "css": "lightning-radio-group"
+            }
+        },
+        {
+            "name": "button",
+            "type": "clickable",
+            "wait": true,
+            "selector": {
+                "css": "button[title='Next']"
+            }
+        }
+    ]
+}

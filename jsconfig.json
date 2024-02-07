@@ -1,9 +1,23 @@
 {
-    "extends": ["@tsconfig/node18/tsconfig.json", "@tsconfig/strictest"],
-    "include": ["force-app/test/**/*"],
-    "exclude": ["node_modules", "utam-preview", "pageObjects"],
+    "extends": [
+        "@tsconfig/node18/tsconfig.json",
+        "@tsconfig/strictest"
+    ],
+    "include": [
+        "force-app/test/**/*"
+    ],
+    "exclude": [
+        "node_modules",
+        "utam-renovo",
+        "pageObjects"
+    ],
     "compilerOptions": {
         "noEmit": true,
-        "types": ["node", "@wdio/globals/types", "@wdio/jasmine-framework", "wdio-utam-service"]
+        "types": [
+            "node",
+            "@wdio/globals/types",
+            "@wdio/jasmine-framework",
+            "wdio-utam-service"
+        ]
     }
 }
