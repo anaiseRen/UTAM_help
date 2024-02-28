@@ -1,7 +1,6 @@
-# utam-preview
+# utam-renovo
 
-Temporary package with Salesforce specific Page Objects.
-Exists only for the duration of UTAM pilot.
+Renovo UTAM Page objects
 
 - to generate page objects 
 ```bash

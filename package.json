@@ -1,5 +1,5 @@
 {
-    "name": "utam-js-recipes",
+    "name": "utam-renovo-tests",
     "license": "MIT",
     "version": "0.0.1",
     "private": true,
@@ -7,9 +7,8 @@
         "lint": "eslint .",
         "format": "prettier --write .",
         "test": "wdio",
-        "build": "yarn compile:utam && yarn generate:utam",
-        "compile:utam": "utam -c utam.config.js && cd utam-preview && yarn compile",
-        "generate:utam": "cd utam-generator && yarn generate && yarn compile",
+        "build": "yarn compile:utam",
+        "compile:utam": "utam -c utam.config.js && cd utam-renovo && yarn compile",
         "create:env": "node scripts/create-env-file.js",
         "generate:login": "node scripts/generate-login-url.js",
         "prepare": "husky install"
@@ -45,7 +44,7 @@
         "lint-staged": "15.2.0",
         "prettier": "3.1.1",
         "salesforce-pageobjects": "^6.0.0",
-        "wdio-utam-service": "^2.2.0"
+        "wdio-utam-service": "^3.0.0"
     },
     "volta": {
         "node": "20.9.0"
@@ -56,8 +55,7 @@
     "packageManager": "yarn@4.0.2",
     "workspaces": [
         "./",
-        "utam-preview",
-        "utam-generator"
+        "utam-renovo"
     ],
     "lint-staged": {
         "*.{js,css,md}": "prettier --write",

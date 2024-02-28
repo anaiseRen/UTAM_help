@@ -1,7 +1,0 @@
-{
-    "pageObjectsFileMask": ["**/*.utam.json"],
-    "pageObjectsOutputDir": "pageObjects",
-    "alias": {
-        "utam-*/": "utam-generator/"
-    }
-}
